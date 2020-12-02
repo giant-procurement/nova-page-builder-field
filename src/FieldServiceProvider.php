@@ -1,6 +1,6 @@
 <?php
 
-namespace DigitalCloud\PageBuilderField;
+namespace GiantLottos\PageBuilderField;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;

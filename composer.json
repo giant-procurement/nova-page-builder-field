@@ -1,5 +1,6 @@
 {
-    "name": "digitalcloud/nova-page-builder-field",
+    "name": "gl/nova-page-builder-field",
+    "version": "dev-master",
     "description": "A Laravel Nova page builder field.",
     "keywords": [
         "laravel",
@@ -14,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "DigitalCloud\\PageBuilderField\\": "src/"
+            "GiantLottos\\PageBuilderField\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "DigitalCloud\\PageBuilderField\\FieldServiceProvider"
+                "GiantLottos\\PageBuilderField\\FieldServiceProvider"
             ]
         }
     },
