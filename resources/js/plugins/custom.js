@@ -416,7 +416,7 @@ export default grapesjs.plugins.add('custom', function (editor, opts) {
   background-image:url("//placehold.it/350x250/459ba8/fff/image2.jpg");
 }
 .card-header.ch3{
-  background-image:url("//placehold.it/350x250/79c267/fff/image3.jpg");
+  background-image:url("//placehold.it/350x250/79c267/fff/image3.jpg"); 
 }
 .card-header.ch4{
   background-image:url("//placehold.it/350x250/c5d647/fff/image4.jpg");

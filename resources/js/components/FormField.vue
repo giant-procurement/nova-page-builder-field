@@ -52,7 +52,19 @@ export default {
     mounted() {
         this.editor = grapesjs.init({
             container: '#editor',
-            storageManager: { autoload: 0 },
+            storageManager: {
+              type: 'remote',
+              autoload: true,
+              stepsBeforeSave: 1,
+              urlLoad: '/nova-vendor/media-assets/'+this.resourceName+'/'+this.resourceId+'/grapesjs-load-assets',
+              contentTypeJson: true,
+              params: {},   // For custom values on requests
+            },
+            assetManager: {
+              // Upload endpoint, set `false` to disable upload, default `false`
+              upload: false,
+              // The name used in POST to pass uploaded files, default: `'files'`
+            },
             width: '100%',
              plugins: [
                  basicBlocks,
