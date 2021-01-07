@@ -523,6 +523,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
     mounted: function mounted() {
         this.editor = __WEBPACK_IMPORTED_MODULE_0_grapesjs___default.a.init({
+            autorender: 1,
             container: '#editor',
             storageManager: {
                 type: 'remote',

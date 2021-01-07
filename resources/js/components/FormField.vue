@@ -51,6 +51,7 @@ export default {
 
     mounted() {
         this.editor = grapesjs.init({
+            autorender: 1,
             container: '#editor',
             storageManager: {
               type: 'remote',
