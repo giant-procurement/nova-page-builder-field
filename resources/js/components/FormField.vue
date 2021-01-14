@@ -10,6 +10,7 @@ import pluginNavbar from 'grapesjs-navbar';
 import pluginCountdown from 'grapesjs-component-countdown';
 import pluginForms from 'grapesjs-plugin-forms';
 import pluginExport from 'grapesjs-plugin-export';
+import pluginHeader from 'grapesjs-plugin-header';
 import custom from '../plugins/custom';
 import { FormField, HandlesValidationErrors } from 'laravel-nova'
 
@@ -73,6 +74,7 @@ export default {
                  pluginCountdown,
                  pluginForms,
                  pluginNavbar,
+                 pluginHeader,
                  custom
              ],
             styleManager : {
